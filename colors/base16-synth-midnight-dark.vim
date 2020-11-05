@@ -47,39 +47,6 @@ let s:gui0E        = "ea5ce2"
 let g:base16_gui0E = "ea5ce2"
 let s:gui0F        = "cd6320"
 let g:base16_gui0F = "cd6320"
-||||||| 6191622
-let s:gui00        = "040404"
-let g:base16_gui00 = "040404"
-let s:gui01        = "141414"
-let g:base16_gui01 = "141414"
-let s:gui02        = "242424"
-let g:base16_gui02 = "242424"
-let s:gui03        = "61507A"
-let g:base16_gui03 = "61507A"
-let s:gui04        = "BFBBBF"
-let g:base16_gui04 = "BFBBBF"
-let s:gui05        = "DFDBDF"
-let g:base16_gui05 = "DFDBDF"
-let s:gui06        = "EFEBEF"
-let g:base16_gui06 = "EFEBEF"
-let s:gui07        = "FFFBFF"
-let g:base16_gui07 = "FFFBFF"
-let s:gui08        = "B53B50"
-let g:base16_gui08 = "B53B50"
-let s:gui09        = "E4600E"
-let g:base16_gui09 = "E4600E"
-let s:gui0A        = "DAE84D"
-let g:base16_gui0A = "DAE84D"
-let s:gui0B        = "06EA61"
-let g:base16_gui0B = "06EA61"
-let s:gui0C        = "7CEDE9"
-let g:base16_gui0C = "7CEDE9"
-let s:gui0D        = "03AEFF"
-let g:base16_gui0D = "03AEFF"
-let s:gui0E        = "EA5CE2"
-let g:base16_gui0E = "EA5CE2"
-let s:gui0F        = "9D4D0E"
-let g:base16_gui0F = "9D4D0E"
 
 " Terminal color definitions
 let s:cterm00        = "00"
@@ -148,23 +115,6 @@ if has("nvim")
   let g:terminal_color_13 = "#ea5ce2"
   let g:terminal_color_14 = "#42fff9"
   let g:terminal_color_15 = "#dddfe0"
-||||||| 6191622
-  let g:terminal_color_0 =  "#040404"
-  let g:terminal_color_1 =  "#B53B50"
-  let g:terminal_color_2 =  "#06EA61"
-  let g:terminal_color_3 =  "#DAE84D"
-  let g:terminal_color_4 =  "#03AEFF"
-  let g:terminal_color_5 =  "#EA5CE2"
-  let g:terminal_color_6 =  "#7CEDE9"
-  let g:terminal_color_7 =  "#DFDBDF"
-  let g:terminal_color_8 =  "#61507A"
-  let g:terminal_color_9 =  "#B53B50"
-  let g:terminal_color_10 = "#06EA61"
-  let g:terminal_color_11 = "#DAE84D"
-  let g:terminal_color_12 = "#03AEFF"
-  let g:terminal_color_13 = "#EA5CE2"
-  let g:terminal_color_14 = "#7CEDE9"
-  let g:terminal_color_15 = "#FFFBFF"
   let g:terminal_color_background = g:terminal_color_0
   let g:terminal_color_foreground = g:terminal_color_5
   if &background == "light"
@@ -189,23 +139,6 @@ elseif has("terminal")
         \ "#ea5ce2",
         \ "#42fff9",
         \ "#dddfe0",
-||||||| 6191622
-        \ "#040404",
-        \ "#B53B50",
-        \ "#06EA61",
-        \ "#DAE84D",
-        \ "#03AEFF",
-        \ "#EA5CE2",
-        \ "#7CEDE9",
-        \ "#DFDBDF",
-        \ "#61507A",
-        \ "#B53B50",
-        \ "#06EA61",
-        \ "#DAE84D",
-        \ "#03AEFF",
-        \ "#EA5CE2",
-        \ "#7CEDE9",
-        \ "#FFFBFF",
         \ ]
 endif
 
